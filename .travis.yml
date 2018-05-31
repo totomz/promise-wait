@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- node
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: npm
+  email: tommaso.doninelli@gmail.com
+  api_key:
+    secure: nZ5rJRsoW/ET+plJt5TDWDTJJSTIZzKAih+jPk05VxZ7g4MOtBseWGGxmOoo65F/On+NpefZXkddKFlStzALOy5STqoWdDtpVaGiKbJWEkfwLKeQJiaH97Cb5Cv0PrucS5Nm7fVfFXuybJOkAU8DniF67Xj6nUm8vZpLKZ8AfNzoXa8r/OXm2nkY0DHBZAO1Cz1LD7UCbMQCM4vdN3Xou5GESgB71SECLGpOUGiWMlOsYv7AYaQ/PPxDJUMNTMCzD9MXDUqZMF4/EDCD84Siwsxc5sCW+JzYufRBDoafjaUdu0dvMn4aFTYVT3wA7V1JjMf39IogjPaa1PRu7zab+EOeaxWlMEBuyHHSMAwBgU8b/B80+1k/zNkvmadWhxOnZD4LeOxjfysJEKXR4j/Bl4suNwR/Nh3Ck/uD40iMWklMAlUrhZfIXA2+Yhh4Bct75Q/im6FeIL3gDJM7BynJfee//J+42XSjEY+71GAEFFV0RHDGLpFqacAysbiM9lpdm3QS1ycDZXll65y1P8BNd0JFNcZBCY23juEiIhEo+q6GOGfjt4HBqbnEFyMOfbU7enqjaBDEJUV3ZD02X8jvQp84xXOauNbXx2833AcD4zxa5YSqHYbQKmybJ+YQ7kMUMVacDZMSuP6oLf2zTcCvUW1iQPdrqLBKwSJ5iD4LM6I=
+  on:
+    branch: master

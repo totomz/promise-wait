@@ -1,0 +1,34 @@
+{
+  "name": "promise-wait",
+  "version": "1.0.0",
+  "description": "Loop on a promise untill a condition is met",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totomz/promise-wait.git"
+  },
+  "keywords": [
+    "promise",
+    "wait",
+    "loop"
+  ],
+  "author": "Tommaso Doninelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/totomz/promise-wait/issues"
+  },
+  "homepage": "https://github.com/totomz/promise-wait#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^11.8.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
